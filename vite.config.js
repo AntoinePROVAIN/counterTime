@@ -30,7 +30,7 @@ export default defineConfig({
         ],
       },
       manifest: {
-        name: 'CounterTime App',
+        name: 'Counter Time',
         short_name: 'CounterTime',
         description: 'Une application de gestion du temps',
         theme_color: '#ffffff',
