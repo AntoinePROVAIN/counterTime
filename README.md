@@ -4,9 +4,9 @@
 ## relier toutes les valeurs à leurs jours  //fait
 ## faire le choix de l'année    //fait
 ## faire l'apercu et le calcul des heures totales   //fait
+## faire en sorte que l'année soit choisi lors du survol du bouton  //fait
+## faire une authentification //fait
 
-## faire en sorte que l'année soit choisi lors du survol du bouton
-## faire une authentification
 ## en fonction du nombre d'heure, faire une moyenne du salaire estimé
 ## voir pour gérer les samedis et dimanches
 
@@ -27,3 +27,9 @@
     => serve dist (pour retenter)
     => Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Restricted (pour revenir au mode précédent)
 7 - Deploiement l'application avec : npm install -g vercel
+8 - creer le fichier manifest.json dans le repertoire public et mettre le lien dans index.html
+    => <link rel="manifest" href="/manifest.json">
+9 - Dans la page chrome, 
+    => regarder dans les trois petits points puis installer application
+    => si ya pas, aller sur chrome://flags/ et chercher Desktop PWAs et autorisé l'installation
+10 - Faite installer localement l'application
