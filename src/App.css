@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  width: 100%;
+  display: block;
+  place-items:initial;
+  /* background-color: rgb(128, 0, 32, 0.2); */
+  overflow-x: hidden;
+}
+
+html {
+  background-color: rgb(238, 197, 175) !important;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+
+/* globalité des div  */
+.global  {
+  width: 100%;
+  background-color: rgb(238, 197, 175);
+}
+
+
+/* haut de la page  */
+.entete {
+  background-color: #303030;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.global_e {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: #303030;
+  align-items: center;
+}
+
+.details {
+  justify-content: right;
+}
+
+.img_e {
+  height: 70px;
+}
+
+.img {
+  margin-left: 3%;
+}
+
+
+/* centre du site  */
+.centre {
+  background-color: rgb(238, 197, 175);
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.droite {
+  background-color: green;
+  text-align: left;
+}
+
+.gauche {
+  background-color: pink;
+}
+
+
+/* choisir annee */
+.dropdown {
+  /* position: relative;
+  display: inline-block; */
+}
+
+/* Style du bouton */
+.dropbtn {
+  background-color: rgb(238, 197, 175);
+  border: 1px solid;
+  border-color: #303030;
+  color: purple;
+  font-weight: bold;
+  /* padding: 15px 300px; */
+  font-size: 16px;
+  /* border: none; */
+  cursor: pointer;
+  margin-top: 20px;
+  width: 35%;
+}
+
+/* Style pour le contenu du dropdown */
+.dropdown-content {
+  display: none;
+  /* position: absolute; */
+  background-color: rgb(238, 197, 175);
+  /* min-width: 100px;
+  max-height: 200px; Limite la hauteur maximale */
+  overflow-y: auto; /* Active le défilement vertical */
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+
+/* Montre le contenu du dropdown au survol du bouton */
+.dropbtn:hover .dropdown-content {
+  display: block;
+}
+
+/* Style pour les éléments de la liste */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: RGB(255, 182, 193, 0.8);}
+
+.year {
+  color: #303030;
+}
+
+.heures {
+  background-color: #303030;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 3%;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.lab {
+  color: white;
+  margin-right: 2%;
+}
+
+.titre_d {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.inp {
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  color: #303030;
+  color-scheme: dark;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator{
+  background-color:black;
+  /* margin: 0; */
+  /* border: #040506; */
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.delete_f {
+  height: 30px;
+  color: red;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.delete_f:hover {
+  transform: scale(1.1); /* Agrandit l'image de 10% lors du survol */
+}
+
+.retour {
+  width: 15%;
+  margin-top: 3%;
+}
+
+.valid {
+  display: flex;
+  gap: 100px;
+  margin: 0 auto;
+}
+
+
+/* calendar  */
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Centre les éléments horizontalement */
+  width: 100%;
+  margin: 0 auto;
+}
+
+.month {
+  width: 100%;
+  max-width: 75%; 
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.month h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: purple;
+}
+
+/* Grille pour chaque mois avec 7 colonnes pour les jours */
+.days-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 jours par ligne */
+  gap: 10px;
+  width: 100%;
+}
+
+.day-box {
+  background-color: #303030;
+  border: 1px solid #ddd;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.day-set {
+  background-color: green;  /* Choisissez la couleur que vous préférez */
+  color: white;
+}
+
+.day-box:hover {
+  transform: scale(1.1); /* Agrandit l'image de 10% lors du survol */
+}
+
+
+/* bas de page */
+.ligne {
+  padding: 3px;
+  /* width: 100%; */
+  background-color: purple;
+  margin: 0 auto;
+  border-radius: 8px;
+  margin-bottom: 2%;
+}
+
+.ligne1 {
+  width: 95%;
+}
+
+.somme {
+  background-color:rgb(255, 229, 212);
+  padding: 20px;
+  width: 35%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  border-radius: 4px;
+}
+
+.tot {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2%;
+}
+
+.tot1 {
+  font-size: 1.5em;
+  color: purple;
+}
+
+.mois {
+  padding: 5px;
+  color: #303030;
+}

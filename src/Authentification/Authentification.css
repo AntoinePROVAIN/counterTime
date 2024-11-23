@@ -1,0 +1,78 @@
+.tout {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centre verticalement */
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    border: 1px solid;
+    border-color: #303030;
+    text-align: center;
+    color: #303030;
+    height: 50vh;
+    display: flex;
+    flex-direction: column; /* Assure que le contenu s'empile en colonne */
+    justify-content: center; /* Centre le contenu verticalement */
+    /* align-items: center;  */
+    gap: 30px;
+}
+
+.formu {
+    width: 100%; /* Assurez-vous que .formu prend la largeur souhaitée */
+    /* display: flex; */
+    /* flex-direction: column;  */
+    /* align-items: center;  */
+}
+
+.inp {
+    border-radius: 5px;
+    background-color: rgb(238, 197, 175);
+    width: 65%;
+    margin-top: 2%;
+    color: black;
+}
+
+.inp2 {
+    border-radius: 5px;
+    background-color: rgb(238, 197, 175);
+    width: 30%;
+    margin-top: 2%;
+    color: purple;
+    cursor: pointer;
+}
+
+.button {
+    /* width: 30%; */
+    padding: 20px;
+}
+
+.titre_a {
+    font-size: 2em;
+    color: purple;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.inscript {
+    text-align: right;
+    margin-right: 2%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.global_d {
+    /* text-align: right; */
+    justify-content: right;
+    margin-right: 3%;
+    display: flex;
+    gap: 20px;
+}
+
+.img_d {
+    height: 50px;
+    cursor: pointer;
+}
