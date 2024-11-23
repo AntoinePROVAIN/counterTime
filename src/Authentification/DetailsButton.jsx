@@ -7,7 +7,7 @@ const DetailsButton = ({ pseudo }) => {
   const nav = useNavigate();
 
   const handleDetails = () => {
-    nav("/details"); 
+    nav("/"); 
   };
 
   return (
