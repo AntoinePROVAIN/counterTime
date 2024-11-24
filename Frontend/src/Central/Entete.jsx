@@ -11,7 +11,7 @@ const Entete = ({nom}) => {
   }
 
   return (
-    <div className='global_e'>
+    <div id="entete-section" className='global_e'>
       <div className='entete'>
         <div className='img'>
             <img src='/logo.png' alt="logo" className='img_e'/>
