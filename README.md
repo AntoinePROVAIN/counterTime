@@ -1,4 +1,4 @@
-# React + Vite
+# Missions
 
 ## faire des couleurs pour les jours qui ont été remplis ou non //fait
 ## relier toutes les valeurs à leurs jours  //fait
@@ -11,7 +11,7 @@
 ## voir pour gérer les samedis et dimanches
 
 
-## Pour permettre PWA
+# Pour permettre PWA
 
 ### 1 - dans le terminal : npm install vite-plugin-pwa --save-dev
 ### 2 - configurer vite.config.js
