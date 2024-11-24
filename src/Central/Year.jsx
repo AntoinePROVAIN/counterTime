@@ -19,18 +19,18 @@ const Year = ({ onYearSelect }) => {
 
   return (
     <div className="dropdown">
-  <button className="dropbtn">{selectedYear || "Choisissez une année"}</button>
-  <div className="dropdown-content">
-    <select onChange={handleChange} value={selectedYear}>
-      <option value="" disabled>Choisissez une année</option>
-      {annee.map((year, index) => (
-        <option key={index} value={year}>
-          {year}
-        </option>
-      ))}
-    </select>
-  </div>
-</div>
+      <button className="dropbtn">{selectedYear || "Choisissez une année"}</button>
+      <div className="dropdown-content">
+        <select onChange={handleChange} value={selectedYear}>
+          <option value="" disabled>Choisissez une année</option>
+          {annee.map((year, index) => (
+            <option key={index} value={year}>
+              {year}
+            </option>
+          ))}
+        </select>
+      </div>
+    </div>
 
   );
 };

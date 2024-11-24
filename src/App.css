@@ -74,11 +74,12 @@ h1, h2, h3, h4 {
 /* choisir annee */
 .dropdown {
   position: relative;
+  width: 35%;
+  margin: 0 auto;
 }
 
 .dropdown-content {
   display: none;
-  position: absolute;
   background-color: rgb(238, 197, 175);
   overflow-y: auto; /* Ajoute un défilement si nécessaire */
   z-index: 1;
@@ -91,17 +92,20 @@ h1, h2, h3, h4 {
   color: purple;
   font-weight: bold;
   cursor: pointer;
-  width: 35%;
+  width: 100%;
   margin-top: 20px;
 }
 
-.dropbtn:hover + .dropdown-content {
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px; 
+  text-decoration: none;
   display: block;
 }
 
-.dropbtn:hover {
-  background-color: rgba(255, 182, 193, 0.8);
-}
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: RGB(255, 182, 193, 0.8);}
 
 .year {
   color: #303030;
