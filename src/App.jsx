@@ -24,12 +24,12 @@ const App = () => {
 
   const handleYearSelect = (year) => {
     setSelectedYear(year);
-    console.log("Année sélectionnée : ", year); // Affiche l'année sélectionnée dans la console
+    // console.log("Année sélectionnée : ", year); // Affiche l'année sélectionnée dans la console
   };
 
   const handleConnex = (name) => {
     setN(name);
-    console.log("Nom : ", name);
+    // console.log("Nom : ", name);
   };
   
 
