@@ -13,11 +13,11 @@
 
 ## Pour permettre PWA
 
-# 1 - dans le terminal : npm install vite-plugin-pwa --save-dev
-# 2 - configurer vite.config.js
-# 3 - Ajouter un service worker (vite-plugin-pwa déja renseigner avec vite)
-# 4 - placer les images dans le répertoire public
-# 5 - tester localement pwa
+### 1 - dans le terminal : npm install vite-plugin-pwa --save-dev
+### 2 - configurer vite.config.js
+### 3 - Ajouter un service worker (vite-plugin-pwa déja renseigner avec vite)
+### 4 - placer les images dans le répertoire public
+### 5 - tester localement pwa
     => npm run build
     => npm install -g serve
     => serve dist
