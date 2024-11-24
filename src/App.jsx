@@ -118,6 +118,7 @@ const App = () => {
     console.log(yearlySum);
   }, [janvier, fevrier, mars, avril, mai, juin, juillet, aout, septembre, octobre, novembre, decembre]);
 
+  console.log("");
   return (
     
     <Router>
