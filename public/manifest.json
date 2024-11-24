@@ -1,18 +1,18 @@
 {
     "name": "Counter Time",
-    "short_name": "Counter",
+    "short_name": "Counter Time",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
     "icons": [
       {
-        "src": "/public/time.png",
+        "src": "/time.png",
         "sizes": "256x256",
         "type": "image/png"
       },
       {
-        "src": "/public/time2.png",
+        "src": "/time2.png",
         "sizes": "512x512",
         "type": "image/png"
       }

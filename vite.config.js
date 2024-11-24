@@ -40,12 +40,12 @@ export default defineConfig({
         start_url: '/',
         icons: [
           {
-            src: '/logo.png',
-            sizes: '192x192',
+            src: '/time2.png',
+            sizes: '256x256',
             type: 'image/png',
           },
           {
-            src: '/logo.png',
+            src: '/time2.png',
             sizes: '512x512',
             type: 'image/png',
           },

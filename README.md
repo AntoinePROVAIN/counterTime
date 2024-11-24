@@ -33,3 +33,8 @@
     => regarder dans les trois petits points puis installer application
     => si ya pas, aller sur chrome://flags/ et chercher Desktop PWAs et autorisé l'installation
 10 - Faite installer localement l'application
+
+
+## A savoir
+
+Ctrl+Shift+R pour forcer le reload de la page
