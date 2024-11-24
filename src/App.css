@@ -73,53 +73,35 @@ h1, h2, h3, h4 {
 
 /* choisir annee */
 .dropdown {
-  /* position: relative;
-  display: inline-block; */
+  position: relative;
 }
 
-/* Style du bouton */
-.dropbtn {
-  background-color: rgb(238, 197, 175);
-  border: 1px solid;
-  border-color: #303030;
-  color: purple;
-  font-weight: bold;
-  /* padding: 15px 300px; */
-  font-size: 16px;
-  /* border: none; */
-  cursor: pointer;
-  margin-top: 20px;
-  width: 35%;
-}
-
-/* Style pour le contenu du dropdown */
 .dropdown-content {
   display: none;
-  /* position: absolute; */
+  position: absolute;
   background-color: rgb(238, 197, 175);
-  /* min-width: 100px;
-  max-height: 200px; Limite la hauteur maximale */
-  overflow-y: auto; /* Active le défilement vertical */
-  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  overflow-y: auto; /* Ajoute un défilement si nécessaire */
   z-index: 1;
+  width: 100%; /* Ajustez selon vos besoins */
 }
 
-/* Montre le contenu du dropdown au survol du bouton */
-.dropbtn:hover .dropdown-content {
+.dropbtn {
+  background-color: rgb(238, 197, 175);
+  border: 1px solid #303030;
+  color: purple;
+  font-weight: bold;
+  cursor: pointer;
+  width: 35%;
+  margin-top: 20px;
+}
+
+.dropbtn:hover + .dropdown-content {
   display: block;
 }
 
-/* Style pour les éléments de la liste */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+.dropbtn:hover {
+  background-color: rgba(255, 182, 193, 0.8);
 }
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: RGB(255, 182, 193, 0.8);}
 
 .year {
   color: #303030;
