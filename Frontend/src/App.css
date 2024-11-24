@@ -78,22 +78,27 @@ h1, h2, h3, h4 {
   left: 0; /* Aligné à gauche de la fenêtre */
   width: auto; /* Adapte la largeur automatiquement */
   text-align: left;
-  padding: 10px; /* Optionnel : espace autour du contenu */
+  padding: 20px; /* Optionnel : espace autour du contenu */
   z-index: 1000; /* S'assure que l'élément reste au-dessus */
 }
 
 .b_haut {
+  display: flex;
   margin-bottom: 10px; /* Espacement entre les boutons */
   font-size: 0.9em;
+  align-items: center;
+  gap: 5px;
 }
 
 .b_bas {
-  margin-bottom: 10px;
+  display: flex;
+  gap: 5px;
   font-size: 0.9em;
+  align-items: center;
 }
 
 .a_haut, .a_bas {
-  background-color: #303030; /* Couleur de fond sombre */
+  background-color: purple; /* Couleur de fond sombre */
   padding: 5px 10px; /* Espacement interne pour rendre les boutons cliquables */
   border-radius: 3px; /* Coins arrondis */
   text-decoration: none; /* Supprime le soulignement */
@@ -107,6 +112,13 @@ h1, h2, h3, h4 {
   color: white; /* Texte blanc */
 }
 
+.img_b {
+  height: 20px;
+}
+
+.txt_b {
+  color: purple;
+}
 
 
 /* choisir annee */
