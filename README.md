@@ -21,18 +21,18 @@
     => npm run build
     => npm install -g serve
     => serve dist
-# 6 - SI NON FONCTIONNEL
+### 6 - SI NON FONCTIONNEL
     => Get-ExecutionPolicy (pour regarder si restricted)
     => Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned (pour changer le mode)
     => serve dist (pour retenter)
     => Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Restricted (pour revenir au mode précédent)
-# 7 - Deploiement l'application avec : npm install -g vercel
-# 8 - creer le fichier manifest.json dans le repertoire public et mettre le lien dans index.html
+### 7 - Deploiement l'application avec : npm install -g vercel
+### 8 - creer le fichier manifest.json dans le repertoire public et mettre le lien dans index.html
     => <link rel="manifest" href="/manifest.json">
-# 9 - Dans la page chrome, 
+### 9 - Dans la page chrome, 
     => regarder dans les trois petits points puis installer application
     => si ya pas, aller sur chrome://flags/ et chercher Desktop PWAs et autorisé l'installation
-# 10 - Faite installer localement l'application
+### 10 - Faite installer localement l'application
 
 
 ## A savoir
