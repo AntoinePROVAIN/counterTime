@@ -14,7 +14,8 @@ const Result = ({ sommeY, sommeM, year }) => {
     console.log(sommeY)
     console.log(Math.round(splitage(sommeY)))
     return (
-        <div className='somme'>
+        // <div className='somme'>
+        <div id="result-section" className='somme'>
             <div className='tot'>
                 <h3 className='tot1'>Somme heures {year}</h3>
                 <h3 className='tot1'>{sommeY ? splitage(sommeY) : "0 h 0"}</h3>

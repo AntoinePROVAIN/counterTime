@@ -9,10 +9,60 @@ body {
 
 html {
   background-color: rgb(238, 197, 175) !important;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4 {
   margin: 0;
+}
+
+/* bouton haut et bas  */
+.h_butt {
+  position: fixed; /* Position fixe pour ne pas bouger au défilement */
+  bottom: 0; /* Aligné en bas de la fenêtre */
+  left: 0; /* Aligné à gauche de la fenêtre */
+  width: auto; /* Adapte la largeur automatiquement */
+  text-align: left;
+  padding: 20px; /* Optionnel : espace autour du contenu */
+  z-index: 1000; /* S'assure que l'élément reste au-dessus */
+}
+
+.b_haut {
+  display: flex;
+  margin-bottom: 10px; /* Espacement entre les boutons */
+  font-size: 0.9em;
+  align-items: center;
+  gap: 5px;
+}
+
+.b_bas {
+  display: flex;
+  gap: 5px;
+  font-size: 0.9em;
+  align-items: center;
+}
+
+.a_haut, .a_bas {
+  background-color: purple; /* Couleur de fond sombre */
+  padding: 5px 10px; /* Espacement interne pour rendre les boutons cliquables */
+  border-radius: 3px; /* Coins arrondis */
+  text-decoration: none; /* Supprime le soulignement */
+}
+
+.a_haut:hover, .a_bas:hover {
+  background-color: #505050; /* Couleur plus claire au survol */
+}
+
+.h_butt a {
+  color: white; /* Texte blanc */
+}
+
+.img_b {
+  height: 20px;
+}
+
+.txt_b {
+  color: purple;
 }
 
 

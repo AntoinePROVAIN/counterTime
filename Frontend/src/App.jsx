@@ -11,7 +11,8 @@ import Result from './Central/Result';
 import Authentification from './Authentification/Authentification';
 import Inscrip from './Authentification/inscript'; 
 import { calculateSum, calculateYearlySum } from './ToolBox/CalculSum';
-import Info from './Authentification/Info';
+// import Info from './Authentification/Info';
+import HightButton from './Central/HightButton';
 
 const App = () => {
 
@@ -126,7 +127,8 @@ const App = () => {
         <Route path="/" element={<Authentification setName={handleConnex}/>} />
         <Route path="/inscript" element={<Inscrip />} />
         {/* <Route path="/details" element={<Info />} /> */}
-        <Route path="/calendar" element={<> <div className='global'><Entete nom={name}/> <div className='centre'><Year onYearSelect={handleYearSelect} /> <Calendar getHeuresDuMois={getHeuresDuMois} /> <Ligne className="ligne ligne1"/> <Result sommeY={yearlySum} sommeM={monthlySums} year={selectedYear}/> </div></div> </>} />
+        {/* <Route path="/calendar" element={<> <div className='global'><Entete nom={name}/> <div className='centre'><Year onYearSelect={handleYearSelect} /> <Calendar getHeuresDuMois={getHeuresDuMois} /> <Ligne className="ligne ligne1"/> <Result sommeY={yearlySum} sommeM={monthlySums} year={selectedYear}/> </div></div> </>} /> */}
+        <Route path="/calendar" element={<> <div className='global'><Entete nom={name}/> <div className='centre'><Year onYearSelect={handleYearSelect} /> <Calendar getHeuresDuMois={getHeuresDuMois} /> <HightButton /> <Ligne className="ligne ligne1"/> <Result sommeY={yearlySum} sommeM={monthlySums} year={selectedYear}/> </div></div> </>} />
         <Route path="/form/:mois/:jour" element={<> <div className='global'><Entete /> <div className='centre'><Form updateHeure={updateHeure} getHeure={(mois, jour) => getHeuresDuMois(mois)[jour - 1]}/> </div></div></>} />
         <Route path="/menu" element={<Menu />} />
       </Routes>

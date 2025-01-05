@@ -8,6 +8,7 @@
 ### faire une authentification //fait
 
 ### en fonction du nombre d'heure, faire une moyenne du salaire estimé
+### faire un compteur des trimestres en fonction du nombre total d'heure effectuée
 ### voir pour gérer les samedis et dimanches
 
 # Pour permettre PWA
@@ -35,6 +36,6 @@
 ### 10 - Faite installer localement l'application
 
 
-## A savoir
+# A savoir
 
 Ctrl+Shift+R pour forcer le reload de la page
