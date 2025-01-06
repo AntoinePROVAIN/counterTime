@@ -1,7 +1,4 @@
 {
-    "project": {
-      "root": "frontend"
-    },
     "builds": [
       {
         "src": "frontend/package.json",
