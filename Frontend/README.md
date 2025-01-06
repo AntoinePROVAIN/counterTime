@@ -10,6 +10,7 @@
 ### en fonction du nombre d'heure, faire une moyenne du salaire estimé
 ### faire un compteur des trimestres en fonction du nombre total d'heure effectuée
 ### voir pour gérer les samedis et dimanches
+### faire un switch dans le resultat des heures pour changer d'années
 
 # Pour permettre PWA
 
