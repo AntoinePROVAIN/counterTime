@@ -5,7 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig({
   publicDir: 'public', // Spécifie le dossier public
   build: {
-    outDir: 'frontend/dist', // Définit le dossier de sortie à 'frontend/dist'
+    outDir: 'dist', // Définit le dossier de sortie à 'frontend/dist'
   },
   plugins: [
     react(),
