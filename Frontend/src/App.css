@@ -18,6 +18,7 @@ h1, h2, h3, h4 {
 
 /* bouton haut et bas  */
 .h_butt {
+  display: block;
   position: fixed; /* Position fixe pour ne pas bouger au défilement */
   bottom: 0; /* Aligné en bas de la fenêtre */
   left: 0; /* Aligné à gauche de la fenêtre */
@@ -25,6 +26,12 @@ h1, h2, h3, h4 {
   text-align: left;
   padding: 20px; /* Optionnel : espace autour du contenu */
   z-index: 1000; /* S'assure que l'élément reste au-dessus */
+}
+
+@media (max-width: 768px) {
+  .h_butt-only {
+    display: none;
+  }
 }
 
 .b_haut {

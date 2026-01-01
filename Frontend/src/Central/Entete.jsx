@@ -17,7 +17,7 @@ const Entete = ({nom}) => {
         <div className='img'>
             <img src='/logo.png' alt="logo" className='img_e'/>
         </div>
-        <h1>Horaire annuel</h1>
+        <h1 className='nom_site'>Horaire annuel</h1>
       </div>
       <DetailsButton pseudo={nom}/>
     </div>
