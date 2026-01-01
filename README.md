@@ -10,3 +10,5 @@ Lorsque vous avez fait cela, vous vous retrouvez sur la page centrale, avec l'af
 ## Amélioration à venir
 
 Il faudrait faire en sorte de connecter cela à une base de données ou à un fichier json permettant de stocker les valeurs rentrées afin de faire le suivi sur une année.
+
+test
