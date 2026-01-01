@@ -44,7 +44,6 @@ const Authentification = ({ setName }) => {
                         />
                     </div>
                     <div className='button'>
-                        {/* Bouton déclenchant l'envoi des données */}
                         <input 
                             type='button' 
                             className='inp2' 

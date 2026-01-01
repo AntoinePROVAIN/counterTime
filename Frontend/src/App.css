@@ -29,7 +29,7 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 768px) {
-  .h_butt-only {
+  .h_butt {
     display: none;
   }
 }
@@ -79,7 +79,6 @@ h1, h2, h3, h4 {
   background-color: rgb(238, 197, 175);
 }
 
-
 /* haut de la page  */
 .entete {
   background-color: #303030;
@@ -97,6 +96,12 @@ h1, h2, h3, h4 {
   align-items: center;
 }
 
+.nom_site {
+  color: white;
+  font-size: 2em;
+  margin-left: 2%;
+}
+
 .details {
   justify-content: right;
 }
@@ -105,10 +110,38 @@ h1, h2, h3, h4 {
   height: 70px;
 }
 
-.img {
+.img_d {
+  height: 50px;
+}
+
+.imgg {
   margin-left: 3%;
 }
 
+
+@media (max-width: 768px) {
+  .nom_site {
+    font-size: 1.2em;   /* texte plus petit */
+    margin-left: 0.5%;  /* marge réduite */
+  }
+
+  .img_e {
+    height: 50px;  /* image plus petite */
+  }
+
+  .img_d {
+    height: 40px;  /* image plus petite */
+  }
+
+  .imgg {
+    margin-left: 1%;  /* marge réduite */
+  }
+
+  .entete {
+    padding: 15px;  /* padding réduit */
+    gap: 10px;      /* espacement réduit */
+  }
+}
 
 /* centre du site  */
 .centre {
@@ -175,6 +208,7 @@ h1, h2, h3, h4 {
   margin-top: 3%;
   border-radius: 5px;
   padding: 15px;
+  font-size: 1em;
 }
 
 .lab {
@@ -187,7 +221,7 @@ h1, h2, h3, h4 {
   margin-top: 2%;
 }
 
-.inp {
+.inpp {
   border-radius: 5px;
   width: 100%;
   text-align: center;
@@ -215,6 +249,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
   color: red;
   align-items: center;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .delete_f:hover {
@@ -224,6 +259,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 .retour {
   width: 15%;
   margin-top: 3%;
+  cursor: pointer;
 }
 
 .valid {
@@ -232,6 +268,27 @@ input[type="time"]::-webkit-calendar-picker-indicator{
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  .heures {
+    font-size: 0.8em;
+  }
+
+  .delete_f {
+    height: 20px;
+  }
+
+  .valid {
+    gap: 20px;
+  }
+
+  .inpp {
+    width: 100%;
+  }
+
+  .retour {
+    width: 25%;
+  }
+}
 
 /* calendar  */
 .calendar-container {
@@ -297,13 +354,13 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 }
 
 .ligne1 {
-  width: 95%;
+  max-width: 75%;
 }
 
 .somme {
   background-color:rgb(255, 229, 212);
   padding: 20px;
-  width: 35%;
+  max-width: 70%;
   margin: 0 auto;
   margin-bottom: 2%;
   border-radius: 4px;
@@ -323,4 +380,18 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 .mois {
   padding: 5px;
   color: #303030;
+}
+
+.tot_mois {
+  font-size: 1em;
+}
+
+@media (max-width: 768px) {
+  .tot1 {
+    font-size: 1em;
+  }
+
+  .tot_mois {
+    font-size: 0.8em;
+  }
 }

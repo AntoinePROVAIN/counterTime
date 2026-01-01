@@ -28,11 +28,7 @@ const Result = ({ sommeY, sommeM, year }) => {
                         <h3>{sum ? splitage(sum) : "0 h 0"}</h3>
                     </div>
                 ))}
-                <ul>
-                    
-                </ul>
             </div>
-        
         </div>
     );
 };
