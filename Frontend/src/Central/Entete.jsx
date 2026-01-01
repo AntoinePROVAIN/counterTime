@@ -14,7 +14,7 @@ const Entete = ({nom}) => {
     // <div className='global_e'>
     <div id="entete-section" className='global_e'>
       <div className='entete'>
-        <div className='img'>
+        <div className='imgg'>
             <img src='/logo.png' alt="logo" className='img_e'/>
         </div>
         <h1 className='nom_site'>Horaire annuel</h1>

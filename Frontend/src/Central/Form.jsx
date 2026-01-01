@@ -42,17 +42,7 @@ const Form = ({ updateHeure, getHeure }) => {
             <label htmlFor="appt" className='lab'>{jour} {mois}</label>
           </div>
           <div>
-            <input 
-              type="time" 
-              id="appt" 
-              className='inp' 
-              name="appt" 
-              min="09:00" 
-              max="18:00" 
-              required 
-              value={heure} 
-              onChange={(e) => setHeure(e.target.value)}
-            />
+            <input type="time" id="appt" className='inpp' name="appt" min="09:00" max="18:00" required value={heure} onChange={(e) => setHeure(e.target.value)}/>
           </div>
           <div className='valid'>
             <img src='/valid.png' className='delete_f' alt="valider" onClick={handleValidate} />

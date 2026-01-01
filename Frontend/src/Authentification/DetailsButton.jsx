@@ -13,7 +13,7 @@ const DetailsButton = ({ pseudo }) => {
   return (
     
     <div className='global_d'>
-      <p>{pseudo}</p>
+      <p className="pseudo">{pseudo}</p>
       <img src='/account.png' className='img_d' onClick={handleDetails}></img>
     </div>
 
